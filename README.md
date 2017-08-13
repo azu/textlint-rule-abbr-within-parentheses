@@ -2,7 +2,7 @@
 
 textlint rule check that abbreviations within parentheses.
 
-Write parentheses within parentheses.
+Write abbreviations within parentheses.
 
 > Ths Object Management Group(OMG) maintains specifications for the Unified Modeling Language(UML).
 
