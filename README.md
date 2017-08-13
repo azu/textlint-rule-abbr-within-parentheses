@@ -1,4 +1,4 @@
-# textlint-rule-abbr-within-parentheses
+# textlint-rule-abbr-within-parentheses [![Build Status](https://travis-ci.org/azu/textlint-rule-abbr-within-parentheses.svg?branch=master)](https://travis-ci.org/azu/textlint-rule-abbr-within-parentheses) [![textlint fixable rule](https://img.shields.io/badge/textlint-fixable-green.svg?style=social)](https://textlint.github.io/) 
 
 textlint rule check that abbreviations within parentheses.
 
