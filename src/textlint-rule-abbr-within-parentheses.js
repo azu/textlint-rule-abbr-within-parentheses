@@ -23,7 +23,7 @@ const reporter = function(context) {
                 return;
             }
             const [abbr, startPair, word, endPair] = captureGroups;
-            const actualAbbr = expandWordsToAcronym(word.text.split(/\s/));
+            const actualAbbr = expandWordsToAcronym(word.text.split(/\s-/));
             if (abbr.text === actualAbbr) {
                 const fixed = fixer.replaceTextRange([
                     abbr.index,

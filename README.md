@@ -7,7 +7,6 @@ Write parentheses within parentheses.
 > Ths Object Management Group(OMG) maintains specifications for the Unified Modeling Language(UML).
 
 ## Examples
-
 **OK**:
 
 ```
@@ -19,6 +18,7 @@ JavaScript(JS)
 **NG**:
 
 ```
+LTS（Long-Term Support）
 JS(JavaScript)
 This rule is OSS(Open Source Software)
 これはOSS（Open Source Software）なルールです

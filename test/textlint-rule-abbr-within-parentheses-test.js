@@ -13,6 +13,17 @@ tester.run("textlint-rule-abbr-within-parentheses", rule, {
     ],
     invalid: [
         {
+            text: "LTS（Long-Term Support）",
+            output: "Long-Term Support（LTS）",
+            errors: [
+                {
+                    message: "Abbreviation should be within parentheses.",
+                    index: 9
+                }
+            ]
+
+        },
+        {
             text: "JS(JavaScript)",
             output: "JavaScript(JS)",
             errors: [
